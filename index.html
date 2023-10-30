@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Raktim Conv</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Enter the temperature you want to convert</h2>
+            </br>
+            <div>
+                <input type="number" id="temp">
+                <select name="celorfah" id="celorfah">
+                    <option value="cel">Celsius</option>
+                    <option value="fah">Fahrenheit</option>
+                </select>
+            </div>
+            </br>
+            <input type="submit" onclick="convert(); return false">
+            </br>
+            <span id="answer"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
